@@ -6,9 +6,9 @@ import {
 import { Section } from "@/components/Section";
 import { FloatingActions } from "@/components/FloatingActions";
 
-import heroImg from "@/assets/hero-interior.jpg";
-import aboutImg from "@/assets/about.jpg";
-import banquetImg from "@/assets/banquet.jpg";
+import heroImg from "@/assets/hero-exterior.jpg";
+import aboutImg from "@/assets/banquet-hall.jpg";
+import banquetImg from "@/assets/banquet-hall.jpg";
 import lagman from "@/assets/lagman.jpg";
 import manty from "@/assets/manty.jpg";
 import shashlik from "@/assets/shashlik.jpg";
@@ -64,7 +64,7 @@ function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <img
           src={heroImg}
-          alt="Интерьер ресторана AL Sultan"
+          alt="Фасад ресторана AL Sultan"
           width={1920}
           height={1280}
           className="absolute inset-0 h-full w-full object-cover"
@@ -83,7 +83,7 @@ function Home() {
             Восточная кухня в сердце Алматы
           </p>
           <p className="mt-3 text-sm md:text-base text-cream/70">
-            Халяль · Восточная и китайская кухня · Банкеты
+            Халял · Восточная и китайская кухня · Банкеты
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
@@ -135,7 +135,7 @@ function Home() {
           </div>
           <div className="space-y-5 text-lg leading-relaxed text-muted-foreground">
             <p>
-              <span className="text-burgundy font-medium">AL Sultan</span> — это уютное кафе халяль,
+              <span className="text-burgundy font-medium">AL Sultan</span> — это уютное кафе халял,
               где встречаются ароматы восточной и китайской кухни. Мы создали место, в которое
               хочется возвращаться: тёплый свет, заботливый сервис и блюда, приготовленные с душой.
             </p>
@@ -144,7 +144,7 @@ function Home() {
               мероприятий. Каждое блюдо — это искреннее гостеприимство нашей команды.
             </p>
             <ul className="grid grid-cols-2 gap-3 pt-2">
-              {["100% Халяль", "Уютная атмосфера", "Банкетный зал", "Семейное место"].map((f) => (
+              {["100% Халял", "Уютная атмосфера", "Банкетный зал", "Семейное место"].map((f) => (
                 <li key={f} className="flex items-center gap-2 text-foreground">
                   <span className="h-2 w-2 rounded-full bg-gold" /> {f}
                 </li>
